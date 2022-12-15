@@ -1,0 +1,48 @@
+
+.Main__card{
+     /* width: 1000px;    */
+    height: 450px;
+   
+    
+   
+    /* margin-left: 20px; */
+   /* border: 2px solid black;  */
+ 
+   /* overflow-y: scroll; */
+}
+.Card__over{
+    /* overflow-y: scroll; */
+    /* height: 800px; */
+    overflow-x: hidden;
+    /* border: 2px solid black; */
+    width: 100%;
+    justify-content: center;
+}
+.Inner__card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   
+
+}
+.card__img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.card__btn {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
+}
+@media(max-width:900px){
+    .Card__main{
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+    .Main__card{
+        justify-content: center;
+        /* margin-left: 40px; */
+        align-items: center;
+        width: 100%;
+        margin-left: 15px;
+    
+    }
+
+}
